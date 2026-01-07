@@ -3,8 +3,8 @@ import streamlit as st
 st.title("📬 문의하기")
 st.write("문의 사항이 있으면 담당자 목록을 통해 직접 연락할 수 있습니다.")
 
-if st.button("📇 담당자 목록 바로가기"):
-    st.switch_page("pages/5_staff.py")
+# ✅ Streamlit 내부 URL로 이동 (가장 안정적)
+st.markdown("### 📇 [담당자 목록 바로가기](/5_staff)")
 
 st.divider()
 
