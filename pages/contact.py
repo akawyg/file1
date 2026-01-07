@@ -4,7 +4,7 @@ st.title("📬 문의하기")
 st.write("문의 사항이 있으면 담당자 목록을 통해 직접 연락할 수 있습니다.")
 
 # ✅ 숫자 제거한 페이지 이름 사용
-st.markdown("### 📇 [담당자 목록 바로가기](?page=staff)")
+st.markdown("### 📇 [담당자 목록 바로가기](?page=staff.py)")
 
 st.divider()
 
